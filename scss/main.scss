@@ -30,7 +30,7 @@ h3 {
     &.sm-heading {
         margin-bottom: 2rem;
         padding: 0.2rem 1rem;
-        background: rgba(lighten($primary-color, 2), 0.5);
+        background: rgba($secondary-color, 0.9);
     }
 }
 
@@ -81,9 +81,10 @@ main {
     display: grid;
     grid-gap: 30px;
     grid-template-areas:
-        'bioimage bio bio'
-        'job1 job2 job3';
-    grid-template-columns: repeat(3, 1fr);
+        'bioimage bio'
+        'job1 job1'
+        'job2 job3';
+    grid-template-columns: repeat(2, 1fr);
 
     .bio-img {
         grid-area: bioimage;
