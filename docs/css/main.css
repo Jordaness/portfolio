@@ -177,7 +177,7 @@ main {
   .about-info .job-3 {
     grid-area: job3; }
   .about-info .job {
-    background: #515151;
+    background: #5e5e5e;
     padding: 0.5rem;
     border-bottom: solid 5px #f89a1c; }
 
@@ -281,5 +281,7 @@ main {
     main .lg-heading {
       margin-top: 1rem;
       font-size: 5rem; }
+    main#about {
+      padding: 1rem; }
   .projects {
     grid-template-columns: 1fr; } }
