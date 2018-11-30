@@ -270,6 +270,9 @@ main {
   .about-info {
     grid-template-areas: 'bioimage' 'bio' 'job1' 'job2' 'job3';
     grid-template-columns: 1fr; }
+  .job,
+  .bio {
+    text-align: left; }
   .boxes div {
     font-size: 1rem; } }
 

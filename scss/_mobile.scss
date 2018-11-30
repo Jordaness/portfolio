@@ -18,6 +18,7 @@
             line-height: 1;
             margin-bottom: 1rem;
         }
+
     }
 
     ul.menu-nav,
@@ -60,11 +61,18 @@
         grid-template-columns: 1fr;
     }
 
+    .job,
+    .bio {
+        text-align: left;
+    }
+
     .boxes {
         div {
             font-size: 1rem;
         }
     }
+
+
 }
 
 // Smartphones
@@ -84,6 +92,8 @@
         &#about {
             padding: 1rem;
         }
+
+
     }
 
     .projects {
